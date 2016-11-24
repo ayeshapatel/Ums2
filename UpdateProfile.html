@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+<form action="/UpdatePro" method="post">
+<div>
+    <label><b>Firstname</b></label>
+    <input type="text" placeholder="Enter Firstname" name="fname"  value="{{.Fname}}"><br>
+
+    <label><b>Lastname</b></label>
+    <input type="text" placeholder="Enter Lastname" name="lname" value="{{.Lname}}"><br>
+
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" value="{{.Email}}"><br>
+
+    <label><b>Country</b></label>
+    <input type="text" name="country"  value="{{.Country}}"><br>
+
+    <button type="submit" name="register" >Update</button>
+    <a href="/">Logout</a>
+
+</div>
+</form>
+
+
+</body>
+</html>
